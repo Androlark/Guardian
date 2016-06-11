@@ -1,0 +1,26 @@
+name: Guardian
+main: fr.androlark.guardian.Guardian
+version: SNAP_1b31c
+author: Androlark
+depend:
+  - ProtocolLib
+description: 'Just another anti-cheat plugin.'
+
+permissions:
+   guardian.immune:
+     description: Bypass anti-cheat
+     permission: guardian.immune
+   guardian.check.forcefield:
+     description: Donne acces a la commande /guardian ff [joueur]
+     permission: guardian.check.forcefield
+   guardian.check.speedhack:
+     description: Donne acces a la commande /guardian speedhack [joueur]
+     permission: guardian.check.speedhack
+   guardian.reset:
+     description: Donne acces a la commande /guardian reset <joueur>
+     permission: guardian.reset
+     
+
+commands:
+  guardian:
+    description: Commande pricipale du plugin
